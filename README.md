@@ -5,7 +5,7 @@ UMSL CS4410 - Computer Graphics (Final Project)
 
 [See it in Action!](https://gfycat.com/spotlessweirdbarnswallow "Maze GIF")
 
-### Linux Build Instructions
+### Linux Build Instructions (Debian-based)
 Open the terminal and run these commands:
 
 ```sudo apt-get install freeglut3*```
