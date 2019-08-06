@@ -1,5 +1,6 @@
 # 3DMaze
 UMSL CS4410 - Computer Graphics (Final Project)
 
-In action:
-https://gfycat.com/spotlessweirdbarnswallow
+
+
+[In Action](https://gfycat.com/spotlessweirdbarnswallow "Maze GIF")
