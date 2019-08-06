@@ -5,7 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include <strstream>
-#include <gl/glut.h>
+#include <GL/glut.h>
 
 typedef unsigned char  uchar;
 typedef unsigned short ushort;
