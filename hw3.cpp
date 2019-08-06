@@ -4,7 +4,6 @@
 //===================================================
 
 #include <GL/glut.h>
-#include <Windows.h>
 #include <cmath>
 #include <vector>
 #include <random>
@@ -604,8 +603,6 @@ struct Maze
 					moveStack.pop();
 
 				//Redraw
-				Sleep((DWORD)0);
-				system("CLS");
 				displayCells(x, y, phase);
 				printCellWalls(x, y);
 				std::cerr << "TOTAL ROLLS: " << rollCount << std::endl << std::endl;
@@ -662,7 +659,6 @@ struct Maze
 					{
 						carve(x, y, tunnelDirection);
 						tunnelDirection = checkValidMoves(x, y, 0);
-						system("CLS");
 						p2DisplayCells(i, j, x, y);
 						printCellWalls(x, y);
 						
@@ -816,7 +812,6 @@ struct Maze
 		displayCells(currentX, currentY, 1);
 		printCellWalls(currentX, currentY);
 		std::cerr << "TOTAL ROLLS: " << rollCount << std::endl << std::endl;
-		system("CLS");
 
 		//Reset numValid.
 		nValid = 0;
