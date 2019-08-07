@@ -1,6 +1,7 @@
 # 3DMaze
 UMSL CS4410 - Computer Graphics (Final Project)
 
+**Description:** Program that generates a unique 3D maze of customizeable size, then allows the user to walk around within the maze. 
 
 
 [See it in Action!](https://gfycat.com/spotlessweirdbarnswallow "Maze GIF")
