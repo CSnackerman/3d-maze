@@ -11,7 +11,7 @@ UMSL CS4410 - Computer Graphics (Final Project)
 
 ```sudo apt-get install freeglut3*```
 
-Navigate to the directory containing the cloned project.
+Navigate to the directory containing the cloned repository.
 
 ```g++ -o Maze hw3.cpp Teapot.cpp -lGL -lGLU -lglut```
 
